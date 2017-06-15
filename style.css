@@ -32,10 +32,10 @@ nav {
   background: #ccc;
 }
 
-.middle {
+/*.middle {
   margin: 0px auto;
   box-sizing: border-box;
-}
+}*/
 
 section {
   float: left;
@@ -46,18 +46,22 @@ section {
   margin-right: 20px;
   margin-bottom: 20px;
   background: #ccc;
+  position: relative;
+  left: 152px;
 
   
 }
 
 aside {
-  width: 480px;
+  width: 460px;
   height: 300px;
   overflow: auto;
   padding: 10px;
   background: #ccc;
   margin-left: 20px;
   margin-bottom: 20px;
+  position: relative;
+  left: 152px;
 }
 
 article {
@@ -66,6 +70,8 @@ article {
   padding: 5px;
   margin: auto;
   background: #777;
+  position: relative;
+  bottom: -50px;
 }
 
 h1 {
@@ -77,6 +83,8 @@ h1 {
   font-size: 18px;
   font-family: "arial", "Helvetica Neue", Helvetica, sans-serif;
   line-height: 32px;
+  position: relative;
+  bottom: -30px;
 }
 
 p {
@@ -88,6 +96,8 @@ p {
   font-size: 18px;
   font-family: "arial", "Helvetica Neue", Helvetica, sans-serif;
   line-height: 32px;
+  position: relative;
+  bottom: -30px;
 }
 
 footer {
